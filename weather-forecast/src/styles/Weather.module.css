@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.main{
+   transition: background-image 0.5s ease-in-out;
+}
+
+.clouds{
+    background-image: url('https://t3.ftcdn.net/jpg/03/10/45/78/360_F_310457894_HIpFBaxSQxiptoVgx0y1o4ZGXyH92YO9.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 532px;
+}
+
+.haze{
+    background-image: url('https://kaiminghe.github.io/cvpr09/forest/forest1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 532px;
+}
+
+.rain{
+    background-image: url('https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 532px;
+}
+
+.clear{
+    background-image: url('https://media.istockphoto.com/id/1208368568/photo/dramatic-sunset-and-sunrise-sky-nature-background-with-white-clouds.webp?b=1&s=170667a&w=0&k=20&c=WdOIfetkFxWtlN1qcanX5HUHPzkPSWRnwWPbFn1Wp-0=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 532px;
+}
+
+.inpDiv{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.input{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.middle > div > h1{
+    font-size: 80px;
+}
+
+.middle > div > p {
+    font-size: 30px;
+}
+
+.middle2{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
