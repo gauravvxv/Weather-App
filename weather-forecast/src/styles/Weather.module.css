@@ -75,3 +75,21 @@
     justify-content: center;
     font-size: 50px;
 }
+
+@media (max-width: 768px) {
+    .clouds{
+        height: 700px;
+
+    }
+    .haze{
+    height: 700px;
+    }
+    .rain{
+        height: 700px;
+
+    }
+    .clear{
+        height: 700px;
+
+    }
+}
