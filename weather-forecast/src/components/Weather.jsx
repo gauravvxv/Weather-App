@@ -6,15 +6,15 @@ const api = {
   apiKey: "973d064f5c240ed685629b35b23e6288",
   apiBase: "https://api.openweathermap.org/data/2.5/"
 }
-
 const Weather = () => {
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
+  const defaultCity = "Delhi";
 
-  const fetchWeather = async () => {
+  const fetchWeather = async (city) => {
 
     try {
-      const res = await fetch(`${api.apiBase}weather?q=${query}&units=metric&APPID=${api.apiKey}`);
+      const res = await fetch(`${api.apiBase}weather?q=${city}&units=metric&APPID=${api.apiKey}`);
       const result = await res.json();
       setWeather(result);
       setQuery('');
@@ -26,7 +26,7 @@ const Weather = () => {
 
 
   useEffect(() => {
-    fetchWeather()
+    fetchWeather(defaultCity)
   }, [])
 
 
